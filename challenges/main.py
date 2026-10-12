@@ -1,4 +1,7 @@
-def replace_first(items, new_value):
-    if not items:
-        return ()
-    return (new_value,) + items[1:]
+def pair_names_and_ages(names, ages):
+    result = {}
+    for i in range(len(names)):
+        result[names[i]] = ages [i]
+    # TODO: use zip() to pair names with ages and populate `result`
+
+    return result
